@@ -1,0 +1,16 @@
+# src/Acme/StoreBundle/Resources/config/doctrine/Product.orm.yml
+Acme\TaskBundle\Entity\Sub4:
+    type: entity
+    table: sub4
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+     
+    task_id:
+              type: integer(FK)    
+    fields:
+        name:
+            type: string
+            length: 100
+   

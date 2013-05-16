@@ -1,0 +1,20 @@
+# src/Acme/StoreBundle/Resources/config/doctrine/Product.orm.yml
+Acme\TaskBundle\Entity\Sub5:
+    type: entity
+    table: sub5
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
+    oneToOne:
+    task_id:
+      targetEntity: task
+      joinColumn:
+        name: id
+        referencedColumnName: id    
+            
+   

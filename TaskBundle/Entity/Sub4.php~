@@ -1,0 +1,19 @@
+<?php
+namespace Acme\TaskBundle\Entity;
+
+class Sub4
+{
+    protected $name;
+    
+    protected $task_id;
+    
+    
+    /**
+     * @var integer
+     */
+   
+    
+    
+    
+}
+    

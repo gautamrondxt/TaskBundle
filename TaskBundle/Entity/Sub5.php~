@@ -1,0 +1,15 @@
+<?php
+namespace Acme\TaskBundle\Entity;
+
+class Sub5
+{
+    protected $name;
+    
+    protected $task_id;
+    
+    protected $id;
+    
+}
+
+
+?>

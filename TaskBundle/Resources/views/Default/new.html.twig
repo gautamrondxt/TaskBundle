@@ -1,0 +1,6 @@
+
+<form action="{{ path('form3')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="text" id="session_value" value="{{session}}"/>
+    <input type="submit" />
+</form>

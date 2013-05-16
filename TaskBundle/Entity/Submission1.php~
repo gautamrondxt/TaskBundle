@@ -1,0 +1,12 @@
+<?php
+
+namespace Acme\TaskBundle\Entity;
+
+class Submission1
+{
+    protected $name;
+    
+    protected $task_id;
+    
+}
+
