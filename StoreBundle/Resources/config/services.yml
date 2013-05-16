@@ -1,0 +1,7 @@
+parameters:
+#    store.example.class: Acme\StoreBundle\Example
+
+services:
+#    store.example:
+#        class: %store.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
