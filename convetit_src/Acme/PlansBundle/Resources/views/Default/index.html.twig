@@ -1,0 +1,219 @@
+{# src/Acme/TaskBundle/Resources/views/Default/index.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+	<link rel="stylesheet" type="text/css" href="/js/fancy/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="/css/msdropdown/dd.css" />
+{% endblock %}
+
+
+
+
+{% block title %}CONVETIT{% endblock %}
+
+{% block body %}
+	{{ parent() }}
+    
+	<!-- HERO -->
+      <div class="container">
+        <div class="hero">
+        	<div class="container">
+            <div class="stripes"></div>          
+            <div class="description">
+              <span><span class="bold">Convene Experts</span> to</span>
+              <span><span class="bold">Vet Ideas and Gain Insights</span> from</span>
+              <span><span class="bold">Within and Beyond</span> your</span>
+              <span><span class="bold">LinkedIn</span> Network</span>
+              <a class="linkedin" href="#">Create Your ThinkTank Now</a>
+            </div>
+            <img class="brain-cog" src="/img/brain_cog.png"/>
+          </div>
+        </div>
+      </div> 
+      <!-- END-HERO -->
+    <div class="container first">  
+    <div class="container main">    	
+      <!-- HOME -->
+      <div class="container home">
+      	<!-- FEATURES -->
+      	<div class="block features">
+        	<div class="title">The First and Only Open Platform Where Senior Executives and Directors Can Access Outside Perspective - On Demand</div>
+          <ul class="features">
+          	<li class="blue"><img src="/img/circle1.png" /></li>
+            <li class="orange"><img src="/img/circle2.png" /></li>
+            <li class="blue"><img src="/img/circle3.png" /></li>
+            <li class="orange ip"><img src="/img/circle4.png" /></li>
+            <li class="blue"><img src="/img/circle5.png" /></li>
+          </ul>
+        </div>
+        <!-- END-FEATURES -->
+        <!-- WHITE -->
+        <div class="block white">
+        	<div class="title">As Insightful as Consulting, But Easy to Use as Quora</div>
+          <ul>
+          	<li>
+            	<img class="icon" src="/img/feature1.png" alt="Handpick">
+            	<div class="title blue">Handpick multiple participants</div>
+            	<div class="description">Studies show the quality of insights dramatically improve when you get multiple perspectives working together.</div>
+            </li>
+            <li>
+            	<img class="icon" src="/img/feature2.png" alt="Handpick">
+            	<div class="title orange">Maintain security & control</div>
+            	<div class="description">Tailor the duration, the terms and the compensation (optional) specific to each ThinkTank.</div>
+            </li>
+            <li class="rp">
+            	<img class="icon" src="/img/feature3.png" alt="Handpick">
+            	<div class="title orange">Meet over days or weeks</div>
+            	<div class="no-border description">No need for scheduling, meetings are asynchronous, so participants can contribute anytime day or night around the globe.</div>
+            </li>
+            <li class="ip rp">
+            	<img class="icon" src="/img/feature4.png" alt="Handpick">
+            	<div class="title blue">Monetize brilliant engagements</div>
+            	<div class="no-border description">Share your completed ThinkTanks with others for free or charge a fee; you set the price and the percentage each of your co-authors earn.</div>
+            </li>
+          </ul>
+          <div class="bottom"></div>
+        </div>
+        <!-- END-WHITE -->
+        <!-- BRAINSTORM -->
+        <div class="block brainstorm">        	
+        	<div class="title">Brainstorm, Research and Profit In Just 4 Simple Steps</div>
+          <ul>
+          	<li><img src="/img/brainstorm1.png">
+            	<span class="dot"></span>
+              <p>
+                <span class="bold">Define your engagement</span> on behalf of yourself or a LinkedIn group.
+              </p>
+            </li>
+            <li><img src="/img/brainstorm2.png">
+            	<span class="dot orange"></span>
+            	<p>
+              	<span class="bold">Design the rules</span> of engagement you wish to have (terms, duration, expertise, required, compensation, etc.)
+              </p>
+            </li>
+            <li><img src="/img/brainstorm3.png">
+            	<span class="dot ip"></span>
+            	<p>
+              	<span class="bold">Select experts</span> from your LinkedIn network or from the broader community
+              </p>
+            </li>
+            <li><img src="/img/brainstorm4.png">
+            	<p>
+              	<span class="bold">Publish your findings</span> for other members to view or pay for, or reserve it for your own consumption
+              </p>
+            </li>
+          </ul>
+          <img src="/img/block3_bottom.png" class="bottom" />
+        </div>
+        <!-- END-BRAINSTORM -->
+        <!-- SUCCESS -->
+        <div class="block success">
+        	<div class="title">Join in the Success Others Have Found by Reaching Beyond Their Walls</div>
+          <div class="container">
+          	<div class="collaboration left">
+            	<div class="container">
+            		<div class="icon"><img src="/img/users/id_006.jpg"></div>
+                <span class="title">Clarence Wooten</span>
+                <span class="sub-title">Serial Entrepeneur</span>
+                <span class="location">Pablo Alto, CA</span>       
+              </div>
+              <div class="banner"><img src="/img/banners/id_001.png"></div> 
+              <div class="description">
+              	<p>
+                	"Time to Market is everything for me; I avoided weeks of 'analysis paralysis' by gaining outside perspective, giving me the confidence I needed to take action. Now I set up and tear down ThinkTanks whenever I need them."
+                </p>
+              </div>
+              <div class="bottom"></div>
+            </div>
+            <div class="collaboration center">
+            	<div class="container">
+            		<div class="icon"><img src="/img/users/id_005.png"></div>
+                <span class="title">Bill Baue</span>
+                <span class="sub-title">Sustainability Expert</span>
+                <span class="location">Amherst, MA</span>       
+              </div>
+              <div class="banner"><img src="/img/banners/id_002.png"></div> 
+              <div class="description">
+              	<p>
+                	"Engagment with experts is now a standard practice in business to mitagate risk and innovate. Having the transcripts for proof of compliance and to revisit over time is invaluable"
+                </p>
+              </div>
+              <div class="bottom"></div>
+            </div>
+            <div class="collaboration">
+            	<div class="container">
+            		<div class="icon"><img src="/img/users/id_004.png"></div>
+                <span class="title">Addison</span>
+                <span class="sub-title">Consulting Agency</span>
+                <span class="location">New York, NY</span>       
+              </div>
+              <div class="banner"><img src="/img/banners/id_001.png"></div> 
+              <div class="description">
+              	<p>
+                	"Our clients need a way to engage with stakeholders easily and reliably. With Convetit, I can facilitate meaningful collaborations with the security and control they demand."
+                </p>
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+        </div>       
+      </div>
+     	<div class="mobile-menu">
+      	<div class="container">
+        	<a class="linkedin" href="#">Create Your ThinkTank</a>
+        	<a class="linkedin" href="#">Membership Levels</a>
+          <a class="linkedin" href="#">Blog</a>
+          <a class="linkedin" href="#">FAQ's</a>
+        </div>
+      </div>
+	
+{% endblock %}
+
+
+
+{% block javascripts %}
+	{{ parent() }}
+	<script type="text/javascript" src="/js/fancy/jquery.fancybox.js"></script>
+	<script src="/js/msdropdown/jquery.dd.min.js"></script>
+	<script type="text/javascript">
+				$(document).ready(function() {
+					$(".various").fancybox({
+						maxWidth	: 800,
+						fitToView	: false,
+						width		: 800,
+						height		: 100,
+						autoSize	: true,
+						closeClick	: false,
+						openEffect	: 'elastic',
+						closeEffect	: 'elastic',
+						padding:0
+					});
+					$("#timezone").msDropdown({visibleRows:10});
+
+				});
+      </script>
+
+{% endblock %}
+
+
+
+{#<form action="{{ path('task_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" name='Save' value='Submit' />
+</form>#}
+
+{#<form action="{{ path('task_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+
+    {{ form_row(form.task) }}
+    {{ form_row(form.dueDate) }}
+
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>#}
+
+

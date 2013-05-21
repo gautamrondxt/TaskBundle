@@ -1,0 +1,1097 @@
+{# src/Acme/PlanBundle/Resources/views/Default/dashboard.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block title %}CONVETIT{% endblock %}
+{% block body %}
+	{{ parent() }}
+
+    <!-- CONTAINER FIRST -->
+    <div class="container first others">  			
+    	<!-- CONTAINER MAIN -->
+      <div class="container main">       	
+       	<!-- BLOCK -->
+        <div class="block">
+        
+        	<!-- CONTAINER -->
+          <div class="container">
+          	<div class="search">
+            	<input class="search" type="text" placeholder="Search collaborations..." /><a href="#"><img src="/img/srch_btn.png" /></a>              
+            </div>   
+            <a class="btn srch various" href="#profile">Profile</a>   
+            <a class="btn srch various" href="#w-step1"><img src="/img/create_plus.png" />Create ThinkTank</a>            
+          </div>
+          <!-- /CONTAINER -->
+        </div>
+        <!-- /BLOCK -->
+      	<!-- BLOCK -->  
+      	<div class="block">  
+          <div class="container penTable">   
+          	<!-- PENDING -->            
+            <div class="pending table">
+            	<div class="section title"><span>Pending Activity</span></div>  
+              <table cellpadding="0" cellspacing="0">
+              	<tr>
+                	<td><a href="#satisfaction" class="various">DBaaS market Demand</a></td>
+                  <td><a href="#">Tom O'Malley</a></td>
+                  <td>Posted Feb, 2012</td>
+                  <td>Facilitator</td>
+                  <td>Closed March 31 
+                  	<div class="ratShare">
+                    	<a href="#shareCollaboration" class="various"><img src="/img/shareCol.png" /><span>Share</span></a>
+                      <a href="#rtParticipants" class="various"><img src="/img/rankUsers.png" alt="Rate Participants" /><span>Rate</span></a> 
+                    </div>
+                  </td>                                
+                </tr>
+                <tr class="alt">
+                	<td><a href="#">Water rights in India</a></td>
+                  <td><a href="#">Shane Cooper</a></td>
+                  <td>Posted Jan, 2013</td>
+                  <td>Participant</td>
+                  <td>Opens June 3 - June 8</td>               
+                </tr>
+                <tr>
+                	<td><a href="#">DBaaS market Demand</a></td>
+                  <td><a href="#">Alice Wonder</a></td>
+                  <td>Posted Mar, 2013</td>
+                  <td>Participant</td>
+                  <td>Opens April 5 - April 6</td>               
+                </tr>
+              </table>             
+              <span class="bottom"></span>            
+            </div>
+            <!-- PENDING -->
+          </div>
+        </div>
+        <!-- /BLOCK -->
+        <!-- INFO -->
+          <div class="container inner">
+            <div class="info">
+              <h1>Note:</h1>            
+              <div class="content">
+              	Each tile below is a ThinkTank that matches your profile and you are eligible to participate in or view. You can search for specific topics by adding key words above.
+              </div>            
+            </div>
+          </div>
+          <!-- /INFO --> 
+        <!-- BLOCK -->  
+      	<div class="block">  
+          <div class="container">
+          	<div class="collaborations left">
+            	<!-- COL -->
+            	<div class="col green">
+              	<!-- HEADER -->
+              	<div class="header">                	
+                	<div class="logo"><img src="/img/users/id_007.png" /></div>  
+                  <div class="description">
+                  	<span class="subtitle">CSR International</span>
+                    <span class="title">Water rights in India</span>
+                  </div>  
+                  <div class="date"><span></span>June 2- June 8</div>        	
+                </div>
+                <div class="banner">
+                	<img src="/img/banners/id_003.png" />
+                  <div class="facilitator"><span>Facilitated by:</span><img src="/img/users/id_001.png"/></div>                	
+                </div>
+                <!-- DESCRIPTION -->
+                <div class="description">
+                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </div>
+                <!-- /DESCRIPTION --> 
+                <!-- ENTER -->
+                <div class="enter">
+                	<div class="enter active">
+                  	<a href="#entrance-engagement" class="various"><img src="/img/col_act.png"/><span>Active</span></a>
+                  </div>	
+                </div>
+                <!-- /ENTER -->
+                <!-- BULLETS --> 
+                <div class="bullets">
+                	<ul>
+                  	<li class="col_bill"><span>Pays $350;<br /> $2500 Bonus Pool</span></li>
+                    <li class="col_per"><span>10 Participants</span></li>
+                    <li class="last col_lock"><span>Private</span></li>                 
+                  </ul>
+                </div> 
+                <!-- /BULLETS　-->                
+              </div>
+              <!-- COL -->
+              <div class="col blue">
+              	<!-- HEADER -->
+              	<div class="header">
+                	<div class="colTools">
+                  	<div class="ratShare">
+                    	<a href="#shareCollaboration" class="various"><img src="/img/shareCol.png" /><span>Share</span></a>
+                    </div>
+                  </div>
+                	<div class="logo"><img src="/img/users/id_007.png" /></div>  
+                  <div class="description">
+                  	<span class="subtitle">CSR International</span>
+                    <span class="title">Water rights in India</span>
+                  </div>  
+                  <span class="date"><span></span>June 2- June 8</span>        	
+                </div>
+                <div class="banner">
+                	<img src="/img/banners/id_003.png" />
+                  <div class="facilitator"><span>Facilitated by:</span><img src="/img/users/id_002.png"/></div>                 	
+                </div>      
+                <!-- DESCRIPTION -->
+                <div class="description">
+                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </div>
+                <!-- /DESCRIPTION --> 
+                <!-- ENTER -->
+                <div class="enter">
+                	<div class="enter published">
+                  	<a href="#entrance-rsvp-pub" class="various"><img src="/img/col_pub.png"/><span>Published</span></a>
+                  </div>	
+                </div>
+                <!-- /ENTER -->
+                <!-- BULLETS --> 
+                <div class="bullets">
+                	<ul>
+                  	<li class="col_bill"><span>250 Flat Free</span></li>
+                    <li class="col_view"><span>64 Views</span></li>
+                    <li class="last col_rate"><span>Rated 6.8</span></li>                
+                  </ul>
+                </div> 
+                <!-- /BULLETS　-->                     
+                <!-- AUTHORS -->
+                <div class="authors">
+                	<span class="title">Authors</span>
+                  <ul>
+                  	<li><img src="/img/users/id_001.png" /><span>Kenny Smiles</span></li>
+                    <li><img src="/img/users/id_002.png" /><span>Rose Anderson</span></li>
+                    <li><img src="/img/users/id_003.png" /><span>Margerita Halbgenberg</span></li>
+                    <li><img src="/img/users/id_005.png" /><span>Annie Mitgledder</span></li>
+                    <li><img src="/img/users/id_006.png" /><span>Peter McCormicker</span></li>
+                  </ul>
+                </div>
+                <!-- /AUTHORS -->                    
+              </div>
+            </div>
+            <div class="collaborations">
+            	<!-- COL -->
+            	<div class="col yellow">
+              	<!-- HEADER -->
+              	<div class="header">
+                	<div class="logo"><img src="/img/users/id_007.png" /></div>  
+                  <div class="description">
+                  	<span class="subtitle">CSR International</span>
+                    <span class="title">Water rights in India</span>
+                  </div>  
+                  <span class="date"><span></span>June 2- June 8</span>       	
+                </div>
+                <div class="banner">
+                	<img src="/img/banners/id_003.png" />
+                  <div class="facilitator"><span>Facilitated by:</span><img src="/img/users/id_003.png"/></div>                  	
+                </div>
+                <!-- DESCRIPTION -->
+                <div class="description">
+                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </div>
+                <!-- /DESCRIPTION --> 
+                <!-- ENTER -->
+                <div class="enter">
+                	<div class="enter rsvp">
+                  	<a href="#entrance-rsvp-pub" class="various"><img src="/img/col_par.png"/><span>Coming Soon</span></a>
+                  </div>	
+                </div>
+                <!-- /ENTER -->  
+                <!-- BULLETS --> 
+                <div class="bullets">
+                	<ul>
+                  	<li class="col_bill"><span>Pays $250</span></li>
+                    <li class="col_per"><span>10 Participants</span></li>
+                    <li class="last col_lock"><span>Private</span></li>                
+                  </ul>
+                </div> 
+                <!-- /BULLETS　-->                 
+              </div>
+              <!-- COL -->
+              <div class="col blue">
+              	<!-- HEADER -->
+              	<div class="header">
+                	<div class="colTools">
+                  	<div class="ratShare">
+                    	<a href="#shareCollaboration" class="various"><img src="/img/shareCol.png" /><span>Share</span></a>
+                    </div>
+                  </div>
+                	<div class="logo"><img src="/img/users/id_007.png" /></div>  
+                  <div class="description">
+                  	<span class="subtitle">CSR International</span>
+                    <span class="title">Water rights in India</span>
+                  </div>     
+                  <span class="date"><span></span>June 2- June 8</span>    	
+                </div>
+                <div class="banner">
+                	<img src="/img/banners/id_003.png" />
+                  <div class="facilitator"><span>Facilitated by:</span><img src="/img/users/id_004.png"/></div>     	
+                </div>
+                <!-- DESCRIPTION -->
+                <div class="description">
+                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+                <!-- /DESCRIPTION --> 
+                <!-- ENTER -->
+                <div class="enter">
+                	<div class="enter published">
+                  	<a href="#entrance-rsvp-pub" class="various"><img src="/img/col_pub.png"/><span>Published</span></a>                    
+                  </div>	
+                </div>
+                <!-- /ENTER -->  
+                <!-- BULLETS --> 
+                <div class="bullets">
+                	<ul>
+                  	<li class="col_bill"><span>250 Flat Free</span></li>
+                    <li class="col_view"><span>64 Views</span></li>
+                    <li class="last col_rate"><span>Rated 6.8</span></li>                 
+                  </ul>
+                </div> 
+                <!-- /BULLETS　-->   
+                <!-- AUTHORS -->
+                <div class="authors">
+                	<span class="title">Authors</span>
+                  <ul>
+                  	<li><img src="/img/users/id_001.png" /><span>Kenny Smiles</span></li>
+                    <li><img src="/img/users/id_002.png" /><span>Rose Anderson</span></li>
+                    <li><img src="/img/users/id_003.png" /><span>Margerita Halbgenberg</span></li>
+                    <li><img src="/img/users/id_005.png" /><span>Annie Mitgledder</span></li>
+                    <li><img src="/img/users/id_006.png" /><span>Peter McCormicker</span></li>
+                  </ul>
+                </div>
+                <!-- /AUTHORS --> 
+              </div>
+            </div>            
+          </div>
+        </div>
+        <!-- /BLOCK -->
+      	<!-- FOOTER -->          	
+        <div class="footer">
+        	<div class="container">
+          	<div class="upper">
+            	<div class="social">
+                <a href="#" class="icon"><img src="/img/twitter.png"></a>
+                <a href="#" class="icon"><img src="/img/in.png"></a>
+                <a href="#" class="icon"><img src="/img/facebook.png"></a>
+	            </div>
+  	          <div class="home">
+                <a href="#" class="icon"><img src="/img/home.png"></a>
+                <span class="location">Palo Alto, CA<br>California</span>
+                <span class="address">Tel. 123-2349-2098<br>Mo - Fr 09:00am - 05:00pm</span>
+	            </div>
+              <div class="contact">
+                <a href="#invite-others" class="icon various"><img src="/img/contact.png"></a>
+                <input type="text" placeholder="Contact Us: your-email@domain.com">
+                <a href="#" class="submit"></a>
+              </div>
+	          </div>
+  	        <div class="lower">
+              <span class="copyright">Convetit.com / All rights reserved / 2013</span>
+              <span class="terms"><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Contact Us</a></span>          
+            </div>        
+	        </div>
+  	    </div>
+        <!-- FOOTER -->
+    	</div>
+      <!-- CONTAINER MAIN -->
+    </div>
+    <!-- CONTAINER FIRST -->
+    
+    <!-- STEP 1 -->
+    <div id="w-step1" class="wizard" style="display:none">
+  		<div class="header">
+      	Define your ThinkTank
+      </div>
+      <div class="steps">
+      	<ul>
+        	<li class="step1 active">Define<br />Your<br />Engagement</li>
+          <li class="step2">Design<br />Your<br />Rules</li>
+          <li class="step3 last">Invite<br />The<br />Experts</li>
+        </ul>
+        <span class="arrow"></span>
+      </div>
+      <div class="container">
+      	<!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">Create a ThinkTank on behalf of:</div>
+          <div class="form">
+          	<ul class="behalf">
+            	<li><input type="radio" name="behalf" />Myself</li>
+              <li>
+              	<input type="radio" name="behalf" />
+                <select id="behalf-of" name="payments" style="width:320px;float:right; margin-top:-10px;">
+                  <option value="1" data-image="/img/users/id_008-small.png">My LinkedIn Group</option>
+                  <option value="2" data-image="/img/users/id_008-small.png">Other option</option>
+                  <option value="3" data-image="/img/users/id_008-small.png">Other option</option>
+                  <option value="4" data-image="/img/users/id_008-small.png">Other option</option>
+                  <option value="5" data-image="/img/users/id_008-small.png">Other option</option>
+                </select>   
+              </li>
+            </ul>
+            <div class="bopImage">
+            <img src="/img/users/id_007.png" />
+            </div>         
+          </div>
+        </div>
+        <!-- /FIELDSET -->       
+        <!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">Describe your ThinkTank to your participants:</div>
+          <div class="form f3">
+          	<div class="half">              
+            	<label>Title:</label>
+              <input type="text"/>
+            </div>
+            <div class="summary">
+            	<label>Summary:</label>
+              <textarea placeholder="Write a brief summary that helps people understand what you hope to achieve and why they should want to participate."></textarea>
+            </div>
+        </div>
+        <!-- /FIELDSET -->
+         <!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">When do you want to host your ThinkTank?</div>
+          <div class="form f2">
+          	<div class="half">
+            	<label>My ThinkTank will start:</label>
+              <div class="from"><input type="text"/><a class="calendar"></a></div>
+            </div>
+            <div class="half">
+            	<label>My ThinkTank will end:</label>
+              <div class="from"><input type="text"/><a class="calendar"></a></div>
+            </div>
+            <div>
+            	<label>Select yout Timezone:</label>
+            	<div class="timezone">
+              	<span class="timezone">
+                  <select id="timezone" name="payments" class="timezone">
+                    <option value="1">EST (Eastern Standard Time)</option>
+                    <option value="2">Other option</option>
+                    <option value="3">Other option</option>
+                    <option value="4">Other option</option>
+                    <option value="5">Other option</option>
+                  </select>  
+                </span>
+                <div class="note">
+                	<span class="note">Note:</span>
+                  <span class="description">ThinkTanks start at 9am of the timezone selected<br />and the complete 9om on the last day.</span>
+                </div>
+              </div>
+            	
+            </div>
+            <!-- INFO -->
+              <div class="info">
+                <h1>Note:</h1>            
+                <div class="content">
+                  Not entirely sure? Not to worry, you can change this later.
+                </div>            
+              </div>
+            <!-- /INFO -->           
+          </div>
+        </div>
+        <!-- /FIELDSET -->
+        <div class="fieldset btns">
+          <div class="buttons">
+            <a class="button gray medium thick various" href="#w-step2">Save and Continue</a>
+            <a class="button light medium cancel">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /STEP 1 -->
+    
+    
+    
+    <!-- STEP 2 -->
+    <div id="w-step2" class="wizard" style="display:none">
+  		<div class="header">
+      	Key Terms of your ThinkTank
+      </div>
+      <div class="steps">
+      	<ul>
+        	<li class="step1">Define<br />Your<br />Engagement</li>
+          <li class="step2 active">Design<br />Your<br />Rules</li>
+          <li class="step3 last">Invite<br />The<br />Experts</li>
+        </ul>
+        <span class="arrow"></span>
+      </div>
+      <div class="container">
+      	<!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">Enter the amount you wish to pay to participants (OPTIONAL):</div>
+          <div class="form">
+            <div class="half">
+              <label>All participants will earn:</label>
+              <input type="text" placeholder="Enter amount in USD" />
+            </div>
+            <div class="half">
+              <label>Bonus Pool:</label>
+              <input type="text" placeholder="Enter amount in USD" />
+            </div>    	      
+          </div>
+        </div>
+        <!-- /FIELDSET -->
+        <!-- INFO -->
+        <div class="container inner">
+          <div class="info">
+            <h1>Note:</h1>            
+            <div class="content">
+              Bonus Pools will be divided equally to the participants that you rate in the top 25% at the end of your ThinkTank.
+            </div>            
+          </div>
+        </div>
+        <div class="container inner">
+          <span class="pull-right">Payments requires a Pro Membership, <a href="#">Upgrade Now!</a></span>
+        </div>
+        <!-- /INFO -->
+        <!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">Who can view this ThinkTanks after it concludes:</div>
+					<div class="container inner">
+          	<ul class="visibility">
+            	<li class="op1">Facilitator Only</li>
+              <li class="op2 active">Facilitator & Participant</li>
+              <li class="op3">All Group Members</li>
+              <li class="op4">Anyone For Fee Or Free</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /FIELDSET -->          
+        <!-- VISIBILITY -->                 
+        <div class="container inner">
+          <div class="info">
+            <h1>Note:</h1>            
+            <div class="content">
+              You can change this anytime prior to the start date. After start the date, you will only be able to narrow the visibility, not expand it.
+            </div>            
+          </div>
+        </div>
+        <!-- /VISIBILITY -->
+        <div class="fieldset btns">
+          <div class="buttons">
+            <a class="button gray medium thick" href="engage-par.html">Save and Continue</a>
+            <a class="button light medium cancel various" href="#w-step1">Back</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /STEP 2 -->
+    
+    
+    <div id="profile" class="wizard profile" style="display:none">
+    	<ul class="tabs">
+      	<li class="profUser active">Profile</li>
+        <li class="profAccount">Account</li>
+        <li class="profEmail">Email</li>     
+      </ul>
+      <!-- PROFILE SETTINGS -->
+      <div class="tabProfile">
+        <div class="userProf">
+          <div class="userPic">
+            <img src="/img/users/id_001.png" />
+            <span class="name">George Dilinger</span>
+            <span class="sub">Serial Entrepeneur</span>
+          </div>
+          <ul class="stats">
+            <li><span>10</span>ThinkTanks created</li>
+            <li class="right"><span>4</span>Participated</li>
+            <li><span>8.4</span>Average Rating</li>
+            <li class="right"><span>$100,940.00</span>Total Revenue</li>
+          </ul>
+        </div>
+        <div class="title inner">Profile Settings</div>
+        <div class="container inner white"> 
+          <div class="container"> 
+            <label>Profile Summary:</label>
+            <textarea></textarea>   
+            <label>Tags:</label>
+            <input type="text" placeholder="Add tags here" />               	
+            <ul class="tags">
+              <a href="#"><li class="hover">Substainability</li></a>
+              <a href="#"><li class="hover">Business continuity</li></a>
+              <a href="#"><li class="hover">Freelance</li></a>
+              <a href="#"><li class="hover">Africa</li></a>
+            </ul>  
+          </div> 
+          <div class="container">
+            <label>Change Profile Photo:</label>
+            <div class="grayDrag">
+              To attach files, drag and drop here or <a href="#">select from your computer</a>
+            </div>
+          </div>
+        </div>
+        <div class="fieldset btns">
+          <div class="buttons">
+            <a class="button gray medium thick" href="engage-par.html">Save and Continue</a>
+            <a class="button light medium cancel various" href="#w-step1">Back</a>
+          </div>
+        </div>
+      </div>
+      <!-- /PROFILE SETTINGS -->
+      <!-- EMAIL SETTINGS -->
+      <div class="tabEmail" style="display:none">      
+        <div class="title inner">Email Settings</div>
+        <div class="container inner white"> 
+          <div class="container"> 
+            <label>Email:</label>
+            <input type="text" />            
+          </div         
+          ><div class="container">
+          	<label>Notifications settings:</label>
+            <span class="fullWidth"><input type="checkbox" name="notifications" /> Email all updates</span>
+            <span class="fullWidth"><input type="checkbox" name="notifications" /> Send me a daily digest</span>
+          </div>
+        </div>
+        <div class="fieldset btns">
+          <div class="buttons">
+            <a class="button gray medium thick" href="engage-par.html">Save and Continue</a>
+            <a class="button light medium cancel various" href="#w-step1">Back</a>
+          </div>
+        </div>
+      </div>
+      <!-- /EMAIL SETTINGS -->
+      <!-- EMAIL SETTINGS -->
+      <div class="tabEmail" style="display:none">      
+        <div class="title inner">Linked accounts</div>
+        <div class="container inner white"> 
+        	<ul class="lnkPayments">
+          	<li><img src="/img/paypal.png" />Linked to paypal account: tom@gmail.com <a href="#">Remove</a></li>
+            <li><img src="/img/amazon.png" />Linked to amazon payments account: tom@gmail.com <a href="#">Remove</a></li>
+          </ul>
+        </div>
+        <div class="title inner">Your account</div>
+        <div class="container inner">
+        	<table class="accntTransactions" cellpadding="0" cellspacing="0">
+          	<tr>
+            	<td colspan="5">Account Total</td>
+            </tr>
+            <tr>
+            	<td>DBaas Makert Research</td>
+              <td>15 Downloads</td>
+              <td>$30.00</td>
+              <td>33%</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+            	<td>DBaas Makert Research</td>
+              <td>15 Downloads</td>
+              <td>$30.00</td>
+              <td>33%</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+            	<td>DBaas Makert Research</td>
+              <td>15 Downloads</td>
+              <td>$30.00</td>
+              <td>33%</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+            	<td>DBaas Makert Research</td>
+              <td>15 Downloads</td>
+              <td>$30.00</td>
+              <td>33%</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+            	<td>DBaas Makert Research</td>
+              <td>15 Downloads</td>
+              <td>$30.00</td>
+              <td>33%</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+            	<td colspan="5"><span>Total<br />$600.00</span></td>
+            </tr>
+          </table>
+        </div>
+        <div class="fieldset btns">
+          <div class="buttons">
+            <a class="button gray medium thick" href="engage-par.html">Save and Continue</a>
+            <a class="button light medium cancel various" href="#w-step1">Back</a>
+          </div>
+        </div>
+      </div>
+      <!-- /EMAIL SETTINGS -->
+      
+      
+      <!-- ENTER COLLABORATION -->
+      <div id="entrance-engagement" class="wizard" style="display:none">
+        <div class="header">
+          ThinkTank Summary and Terms of Engagement
+        </div>
+        <div class="colOwner inner">
+        <span>India Water Rights, by CSR International</span>
+        <img src="/img/users/id_007.png" />
+        </div>
+        <div class="container cstm">
+          <!-- FIELDSET -->
+          <div class="fieldset">
+            <div class="title">Abstract</div>
+            <div class="container inner white colSummary">
+            Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare. Sed at malis omnesque delicata, usu et iusto zzril meliore. Dicunt maiorum eloquentiam cum cu, sit summo dolor essent te. Ne quodsi nusquam legendos has, ea dicit voluptua eloquentiam pro, ad sit quas qualisque. Eos vocibus deserunt quaestio ei. Blandit incorrupte quaerendum in quo, nibh impedit id vis, vel no nullam semper audiam. 
+            </div>
+          </div>
+          <!-- /FIELDSET -->
+           <!-- FIELDSET -->
+          <div class="fieldset">
+            <div class="title">Key Terms</div>
+            <div class="container inner white colSummary">
+           	<ul class="keyTerms">
+            	<li>The ThinkTank will be published for all to be able to view at the close of the discussion.</li>
+              <li>Participants will earn a $50 USD payment and be elegible to earn from a bonus pool of $1000 USD.</li>
+              <li>Bullet points	of terms listed here to give readers a better understanding of what they are signing off on.</li>
+            </ul>
+            <label id="collaboration-terms">Other Terms:</label>
+            <ul class="otTerms">
+            	<li class="pdf">Key_terms.pdf</li>
+              <li class="doc">Key_terms.pdf</li>
+              <li class="doc">Key_terms.pdf</li>
+              <li class="pdf">Key_terms.pdf</li>
+            </ul>
+            
+            <div class="container">
+              <div class="info yellow check">         
+                <div class="content">
+                 <span><input type="checkbox" /> I have read terms specific to this work and I agree to them.</span>
+                </div>            
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- /FIELDSET -->
+           <!-- FIELDSET -->
+          <div class="fieldset">
+            <div class="title">You are about to enter into a private collaboration</div>
+            <div class="container inner white colSummary">
+            By entering into this or any other work, you are responsible for any and all conflicts of interest that might exist between you and your employer or other entities that may have legal or moral obligations to. <br />
+						There are <a href="#collaborations-terms">TERMS </a> specific to his work that you just read before entering
+            <div class="container">
+              <div class="info yellow check">         
+                <div class="content">
+                 <span><input type="checkbox" /> I have read terms specific to this work and I agree to them.</span>
+                </div>            
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- /FIELDSET -->
+          <div class="fieldset btns">
+            <div class="buttons" style="width:290px">
+              <a class="button gray medium thick" href="engage-par.html">Enter</a>
+              <a class="button light medium cancel various" href="#w-step1">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /ENTER COLLABORATION	 -->
+      
+      
+      
+      <!-- RATE PARTICIPANTS -->
+      <div class="wizard" style="display:none" id="rtParticipants">
+      	<div class="header">Rate Your Participants</div>        
+        <div class="container">
+          <div class="fieldset">
+            <div class="title">Rate the overall performance of your ThinkTank participants</div>
+          </div>
+        </div        
+        ><ul class="rtParticipants">
+          <li>
+            <div class="rtpUser">
+              <div class="rtpuImage"><img src="/img/users/id_001.png" /></div>
+              <div class="rtpuDescription">
+                <div class="udName">Johnt Writer</div>
+                <div class="udMajor">Sustainability Expert</div>
+                <div class="udLocation">Palo Alto, CA</div>  
+                <ul class="udRating" belongs-to="rate1">
+                	<li class="1"></li>
+                  <li class="2"></li>
+                  <li class="3"></li>
+                  <li class="4"></li>
+                  <li class="5"></li>
+                  <input type="text" id="rate1" value="0" style="display:none"  />
+                </ul>            
+              </div>
+            </div>
+            <div class="rtpComment">
+            <label>Comment:</label>
+            <input type="text" placeholder="Write your thoughts about this participants, here..." />
+            </div>
+          </li>
+          <li>
+            <div class="rtpUser">
+              <div class="rtpuImage"><img src="/img/users/id_002.png" /></div>
+              <div class="rtpuDescription">
+                <div class="udName">Johnt Writer</div>
+                <div class="udMajor">Sustainability Expert</div>
+                <div class="udLocation">Palo Alto, CA</div>  
+                <ul class="udRating" belongs-to="rate2">
+                	<li class="1"></li>
+                  <li class="2"></li>
+                  <li class="3"></li>
+                  <li class="4"></li>
+                  <li class="5"></li>
+                  <input type="text" id="rate2" value="0" style="display:none"  />
+                </ul>            
+              </div>
+            </div>
+            <div class="rtpComment">
+            <label>Comment:</label>
+            <input type="text" placeholder="Write your thoughts about this participants, here..." />
+            </div>
+          </li>
+          <li>
+            <div class="rtpUser">
+              <div class="rtpuImage"><img src="/img/users/id_003.png" /></div>
+              <div class="rtpuDescription">
+                <div class="udName">Johnt Writer</div>
+                <div class="udMajor">Sustainability Expert</div>
+                <div class="udLocation">Palo Alto, CA</div>  
+                <ul class="udRating" belongs-to="rate3">
+                	<li class="1"></li>
+                  <li class="2"></li>
+                  <li class="3"></li>
+                  <li class="4"></li>
+                  <li class="5"></li>
+                  <input type="text" id="rate3" value="0" style="display:none"  />
+                </ul>            
+              </div>
+            </div>
+            <div class="rtpComment">
+            <label>Comment:</label>
+            <input type="text" placeholder="Write your thoughts about this participants, here..." />
+            </div>
+          </li>
+        </ul>
+        <div class="container inner">
+        	<div class="info">
+            <h1>Note:</h1>            
+            <div class="content">
+              Rate each participant by selecting the number of stars that indicates their overall contribution in the ThinkTank. Any comments will be visible on their profile.
+            </div>            
+          </div>
+        </div>
+        <div class="fieldset btns">
+            <div class="buttons" style="width:370px">
+              <a class="button gray medium thick" href="engage-par.html">Submit & Publish</a>
+              <a class="button light medium cancel various" href="#w-step1">Cancel</a>
+            </div>
+          </div>
+      </div>
+      <!-- /RATE PARTICIPANTS -->
+      
+      
+      <!-- SHARE COLLABORATION -->
+      <div class="wizard" style="display:none" id="shareCollaboration">
+      	<div class="header">Share this ThinkTank	</div>        
+        <div class="container inner">
+        	<!-- COLLABORATION SHARE -->
+        	<div class="colShare">
+          	<div class="shrSide">
+            	<span class="sdTitle">Share It!</span>
+              <span class="sdDescription">Three ways to get the word out</span>
+            </div>
+            <div class="shrShare">
+            	<ul class="genTab">
+              	<li class="active url fadeToggle" show="shrUrl" group="share">Copy / Paste</li>                
+                <li class="email fadeToggle" show="shrEmail" group="share">Email</li>
+              </ul>
+            	<div class="inner">
+                <div class="fwb shareDiv" id="shrUrl">                	
+                  <input type="text" placeholder="http://" />
+                  <a href="#" class="hover">Copy</a>                  
+                </div>                  
+                 <div class="fwb shareDiv" id="shrEmail" style="display:none">                	
+                  <input type="text" placeholder="your@email.com" />
+                  <a href="#" class="hover">Send Email</a>                  
+                </div>                  
+              </div>              
+            </div>          
+          </div>
+          <!-- /COLABORATIONS SHARE -->
+          <!-- COLLABORATION SHARE -->
+        	<div class="colShare">
+          	<div class="shrSide">
+            	<span class="sdTitle">LinkedIn<br />Share</span>
+              <span class="sdDescription">Share with your LinkedIn Contacts<br />and Groups</span>
+            </div>            
+            <div class="shrShare">
+            <ul class="genTab">
+              	<li class="active groups fadeToggle" show="lnkGroups" group="lnkGroup">Groups</li>                
+                <li class="contacts fadeToggle" show="lnkContacts" group="lnkGroup">Contacts</li>
+              </ul>
+            	<label>Select who you want to share with:</label>
+              <div class="chkLinkedIn lnkGroupDiv" id="lnkGroups">
+              	<span><input type="checkbox" name="linkedin" value="1" /> Group 1</span>
+                <span><input type="checkbox" name="linkedin" value="2" /> Group 2</span>
+                <span><input type="checkbox" name="linkedin" value="3" /> Group 3</span>
+                <span><input type="checkbox" name="linkedin" value="4" /> Group 4</span>
+                <span><input type="checkbox" name="linkedin" value="5" /> Group 5</span>
+                <span><input type="checkbox" name="linkedin" value="6" /> Group 6</span>
+                <span><input type="checkbox" name="linkedin" value="7" /> Group 7</span>
+                <span><input type="checkbox" name="linkedin" value="8" /> Group 8</span>
+                <span><input type="checkbox" name="linkedin" value="9" /> Group 9</span>
+                <span><input type="checkbox" name="linkedin" value="10" /> Group 10</span>
+                <span><input type="checkbox" name="linkedin" value="11" /> Group 11</span>
+                <span><input type="checkbox" name="linkedin" value="12" /> Group 12</span>
+                <span><input type="checkbox" name="linkedin" value="13" /> Group 13</span>
+                <span><input type="checkbox" name="linkedin" value="14" /> Group 14</span>
+              </div>    
+              <div class="chkLinkedIn lnkGroupDiv" id="lnkContacts" style="display:none">
+              	<span><input type="checkbox" name="linkedin" value="1" /> User 1</span>
+                <span><input type="checkbox" name="linkedin" value="2" /> User 2</span>
+                <span><input type="checkbox" name="linkedin" value="3" /> User 3</span>
+                <span><input type="checkbox" name="linkedin" value="4" /> User 4</span>
+                <span><input type="checkbox" name="linkedin" value="5" /> User 5</span>
+                <span><input type="checkbox" name="linkedin" value="6" /> User 6</span>
+                <span><input type="checkbox" name="linkedin" value="7" /> User 7</span>
+                <span><input type="checkbox" name="linkedin" value="8" /> User 8</span>
+                <span><input type="checkbox" name="linkedin" value="9" /> User 9</span>
+                <span><input type="checkbox" name="linkedin" value="10" /> User 10</span>
+                <span><input type="checkbox" name="linkedin" value="11" /> User 11</span>
+                <span><input type="checkbox" name="linkedin" value="12" /> User 12</span>
+                <span><input type="checkbox" name="linkedin" value="13" /> User 13</span>
+                <span><input type="checkbox" name="linkedin" value="14" /> User 14</span>
+              </div>      
+                        
+              <div class="fwb noField"><div class="container inner"><input type="checkbox" /> Push to my general update on LinkedIn</div><a href="#">Share</a></div>
+              <div class="container inner">
+                <div class="info green check">         
+                  <div class="content">
+                   <span> Your message was sent, it will arrive soon to your selected groups.</span>
+                  </div>            
+                </div>
+              </div>
+            </div>                    
+          </div>
+          <!-- /COLABORATIONS SHARE -->
+        </div>        
+      </div>
+      <!-- /SHARE COLLABORATION-->
+      
+      
+      <!-- SURVEY -->
+      <div class="wizard" style="display:none" id="satisfaction">
+      	<div class="header">Satisfaction survey</div>        
+        <div class="container inner">
+        	<!-- FIELDSET -->
+      	<div class="fieldset">
+        	<div class="title">How helpful was this work:</div>
+          <div class="form survList">
+          	<ul>
+            	<li><input type="radio" name="satisfaction" /> 5 - Extremely insightful</li>
+              <li><input type="radio" name="satisfaction" /> 4 - Very helpful</li>
+              <li><input type="radio" name="satisfaction" /> 3 - Helpful</li>
+              <li><input type="radio" name="satisfaction" /> 2 - Not what i thought it could have been</li>
+              <li><input type="radio" name="satisfaction" /> 1 - Dissapointed</li>
+            </ul>
+            <textarea placeholder="Comments (400 characters max)"></textarea>
+          </div>
+          <!-- INFO -->
+          <div class="container inner">
+            <div class="info">
+              <h1>Note:</h1>            
+              <div class="content">
+                Feedback here will be viewable by other members considering entering this published ThinkTank.
+              </div>            
+            </div>
+          </div>
+          <!-- /INFO -->   
+        </div>
+        <!-- /FIELDSET -->  
+        <div class="fieldset btns">
+            <div class="buttons" style="width:370px">
+              <a class="button gray medium thick" href="engage-par.html">Submit Survey</a>
+              <a class="button light medium cancel various" href="#w-step1">Cancel</a>
+            </div>
+          </div> 
+          
+        </div>        
+      </div>
+      <!-- /Survey-->
+      
+      
+      
+      <!-- ENTER COLLABORATION -->
+      <div id="entrance-rsvp-pub" class="wizard" style="display:none">
+        <div class="header">
+          Enter collaboration
+        </div>
+        <div class="colOwner inner">
+        <span>Welcome to the Water Rights In India reporting work</span>
+        <img src="/img/users/id_007.png" />
+        </div>
+        <div class="container cstm">
+          <!-- FIELDSET -->
+          <div class="fieldset">
+            <div class="title">Abstract</div>
+            <div class="container inner white colSummary">
+            Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare. Sed at malis omnesque delicata, usu et iusto zzril meliore. Dicunt maiorum eloquentiam cum cu, sit summo dolor essent te. Ne quodsi nusquam legendos has, ea dicit voluptua eloquentiam pro, ad sit quas qualisque. Eos vocibus deserunt quaestio ei. Blandit incorrupte quaerendum in quo, nibh impedit id vis, vel no nullam semper audiam. 
+            </div>
+          </div>
+          <!-- /FIELDSET -->          
+           <!-- FIELDSET -->
+          <div class="fieldset">
+            <div class="title">Most active participants</div>
+            <div class="container inner white colSummary">
+            <ul class="mostActive">
+            	<li><img src="/img/users/id_005.png" /></li>
+              <li><img src="/img/users/id_001.png" /></li>
+              <li><img src="/img/users/id_002.png" /></li>
+              <li><img src="/img/users/id_003.png" /></li>
+              <li><img src="/img/users/id_001.png" /></li>
+              <li><img src="/img/users/id_002.png" /></li>
+            </ul>
+            </div>
+          </div>
+          <!-- /FIELDSET -->
+          <!-- INFO -->
+          <div class="container inner">
+            <div class="info yellow">
+              <h1>Note:</h1>            
+              <div class="content">
+              	This collaboration costs $25 to enter
+              </div>            
+            </div>
+          </div>
+          <!-- /INFO -->    
+
+          <div class="fieldset btns">
+            <div class="buttons" style="width:290px">
+              <a class="button gray medium thick" href="engage-par.html">Enter</a>
+              <a class="button light medium cancel various" href="#w-step1">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /ENTER COLLABORATION	 -->
+      
+      
+      
+      <!-- SHARE COLLABORATION -->
+      <div class="wizard" style="display:none" id="invite-others">
+      	<div class="header">Invite Others</div>        
+        <div class="container inner">
+        	<!-- COLLABORATION SHARE -->
+        	<div class="colShare">
+          	<div class="shrSide">
+            	<span class="sdTitle">Push a<br />Link</span>
+            </div>
+            <div class="shrShare">
+            	<ul class="genTab">
+              	<li class="active url fadeToggle" show="shrUrlInvite" group="shareInvite">Copy / Paste</li>                
+                <li class="email fadeToggle" show="shrEmailInvite" group="shareInvite">Email</li>
+              </ul>
+            	<div class="inner">
+                <div class="fwb shareInviteDiv" id="shrUrlInvite">                	
+                  <input type="text" placeholder="http://" />
+                  <a href="#" class="hover">Copy</a>                  
+                </div>                  
+                 <div class="fwb shareInviteDiv" id="shrEmailInvite" style="display:none">                	
+                  <input type="text" placeholder="your@email.com" />
+                  <a href="#" class="hover">Send Email</a>                  
+                </div>                  
+              </div>              
+            </div>          
+          </div>
+          <!-- /COLABORATIONS SHARE -->
+          <!-- COLLABORATION SHARE -->
+        	<div class="colShare">
+          	<div class="shrSide">
+            	<span class="sdTitle">Promote<br />Via<br />LinkedIn</span>
+            </div>            
+            <div class="shrShare">
+            <ul class="genTab">
+              	<li class="active groups fadeToggle" show="lnkGroupsInvite" group="lnkGroupInvite">Groups</li>                
+                <li class="contacts fadeToggle" show="lnkContactsInvite" group="lnkGroupInvite">Contacts</li>
+              </ul>
+            	<label>Select who you want to share with:</label>
+              <div class="chkLinkedIn lnkGroupInviteDiv" id="lnkGroupsInvite">
+              	<span><input type="checkbox" name="linkedin" value="1" /> Group 1</span>
+                <span><input type="checkbox" name="linkedin" value="2" /> Group 2</span>
+                <span><input type="checkbox" name="linkedin" value="3" /> Group 3</span>
+                <span><input type="checkbox" name="linkedin" value="4" /> Group 4</span>
+                <span><input type="checkbox" name="linkedin" value="5" /> Group 5</span>
+                <span><input type="checkbox" name="linkedin" value="6" /> Group 6</span>
+                <span><input type="checkbox" name="linkedin" value="7" /> Group 7</span>
+                <span><input type="checkbox" name="linkedin" value="8" /> Group 8</span>
+                <span><input type="checkbox" name="linkedin" value="9" /> Group 9</span>
+                <span><input type="checkbox" name="linkedin" value="10" /> Group 10</span>
+                <span><input type="checkbox" name="linkedin" value="11" /> Group 11</span>
+                <span><input type="checkbox" name="linkedin" value="12" /> Group 12</span>
+                <span><input type="checkbox" name="linkedin" value="13" /> Group 13</span>
+                <span><input type="checkbox" name="linkedin" value="14" /> Group 14</span>
+              </div>    
+              <div class="chkLinkedIn lnkGroupDivInvite" id="lnkContactsInvite" style="display:none">
+              	<span><input type="checkbox" name="linkedin" value="1" /> User 1</span>
+                <span><input type="checkbox" name="linkedin" value="2" /> User 2</span>
+                <span><input type="checkbox" name="linkedin" value="3" /> User 3</span>
+                <span><input type="checkbox" name="linkedin" value="4" /> User 4</span>
+                <span><input type="checkbox" name="linkedin" value="5" /> User 5</span>
+                <span><input type="checkbox" name="linkedin" value="6" /> User 6</span>
+                <span><input type="checkbox" name="linkedin" value="7" /> User 7</span>
+                <span><input type="checkbox" name="linkedin" value="8" /> User 8</span>
+                <span><input type="checkbox" name="linkedin" value="9" /> User 9</span>
+                <span><input type="checkbox" name="linkedin" value="10" /> User 10</span>
+                <span><input type="checkbox" name="linkedin" value="11" /> User 11</span>
+                <span><input type="checkbox" name="linkedin" value="12" /> User 12</span>
+                <span><input type="checkbox" name="linkedin" value="13" /> User 13</span>
+                <span><input type="checkbox" name="linkedin" value="14" /> User 14</span>
+              </div>      
+                        
+              <div class="fwb noField"><div class="container inner"><input type="checkbox" /> Push to my general update on LinkedIn</div><a href="#">Share</a></div>
+              <div class="container inner">
+                <div class="info green check">         
+                  <div class="content">
+                   <span> Your message was sent, it will arrive soon to your selected groups.</span>
+                  </div>            
+                </div>
+              </div>
+            </div>                    
+          </div>
+          <!-- /COLABORATIONS SHARE -->
+        </div>        
+      </div>
+      <!-- /SHARE COLLABORATION-->
+      
+      
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+     $(".genTab li").click(function(){
+		$(this).parent().find("li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	$("#behalf-of").msDropdown({visibleRows:4});
+	try {
+		var pages = $("#pages").msDropdown({on:{change:function(data, ui) {
+												var val = data.value;
+												if(val!="")
+													window.location = val;
+											}}}).data("dd");
+		var pagename = document.location.pathname.toString();
+		pagename = pagename.split("/");
+		pages.setIndexByValue(pagename[pagename.length-1]);
+		$("#ver").html(msBeautify.version.msDropdown);
+	} catch(e) {
+		//console.log(e);	
+	}
+	$("#ver").html(msBeautify.version.msDropdown);
+	
+	$(".udRating li").click(function(){
+		var until = $(this).attr("class");
+		$(this).parent().find("li").css("background","url(/img/favorite.png) center center no-repeat");
+		$(this).parent().find("#"+$(this).parent().attr("belongs-to")).attr("value",$(this).attr("class"));
+		$.each($(this).parent().find("li"), function() {
+    	if ( $(this).attr("class")<= until  ){
+				$(this).css("background","url(/img/favorite_act.png) center center no-repeat")
+			}
+   });
+	});
+	
+	
+});
+
+{% endblock %}

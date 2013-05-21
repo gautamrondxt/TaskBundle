@@ -1,0 +1,120 @@
+{# src/Acme/TaskBundle/Resources/views/Default/new.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+	<link rel="stylesheet" type="text/css" href="/js/fancy/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="/css/msdropdown/dd.css" />
+{% endblock %}
+
+
+
+
+{% block title %}CONVETIT{% endblock %}
+
+{% block body %}
+	{{ parent() }}
+    <!-- CONTAINER FIRST -->
+    <div class="container first others">  			
+    	<!-- CONTAINER MAIN -->
+      <div class="container main"> 
+      	<div class="inner plans">
+        	<div class="title">Convetit is an affordable alternative to face-to-face engagement and can scale to any size</div>
+          	<div class="plan first">
+            	<div class="title">Free Membership</div>
+              <ul>
+              	<li>Participate in ThinkTanks</li>
+                <li>Create ThinkTanks<br />Among Linkedin Contacts</li>
+                <li>Publish Engagement<br />for Free or Fee</li>
+              </ul>
+              <div class="bottom"><a class="button gray medium thick">Join now</a></div>
+            </div>
+            <div class="plan second">
+            	<div class="title">Extended</div>
+              <ul>
+              	<li>
+                	<strong>$ 1,200/Year</strong><br />
+                  or<br />
+                  <strong class="small">$150/Month</strong>
+               	</li>
+                <li>Create ThinkTanks<br />Beyond Linkedin Contacts</li>
+              </ul>
+              <div class="bottom"><a class="button gray medium thick">Upgrade</a></div>
+            </div>
+            <div class="plan big third">
+            	<div class="title">Extended plus Compensation</div>
+              <ul>
+              	<li>
+                	<strong>$6,000/Year</strong><br />
+                  <strong class="small">14 Day Free Trial</strong>
+                </li>
+                <li>Compensate<br />ThinkTank Participants</li>                
+              </ul>
+              <div class="bottom"><a class="button gray medium thick">Join now</a></div>
+            </div>
+            <div class="plan fourth">
+            	<div class="title">Engagement-as-a-Service</div>
+              <ul>
+              	<li>Individual Case Basis</li>
+                <li>White label and Develop<br />an Online Facilitation Service<br />For Your Clients</li>                
+              </ul>
+              <div class="bottom"><a class="button gray medium thick">Contact us</a></div>
+            </div>
+          <div class="title-bottom">Convetit is a For-Benefit Business: Mission motivated groups can qualify for a free usage; <a href="#">Contact Us to Qualify</a></div>
+          
+        </div>
+      	
+      
+    	</div>
+      <!-- CONTAINER MAIN -->
+    </div>
+    <!-- CONTAINER FIRST -->        
+{% endblock %}
+
+
+
+{% block javascripts %}
+	{{ parent() }}
+	<script type="text/javascript" src="/js/fancy/jquery.fancybox.js"></script>
+	<script src="/js/msdropdown/jquery.dd.min.js"></script>
+	<script type="text/javascript">
+				$(document).ready(function() {
+					$("#lnlogin1").fancybox({
+						maxWidth	: 800,
+						fitToView	: false,
+						width		: 800,
+						height		: 100,
+						autoSize	: true,
+						closeClick	: false,
+						openEffect	: 'elastic',
+						closeEffect	: 'elastic',
+						type		: 'iframe',
+						padding:0
+					});
+					$("#timezone").msDropdown({visibleRows:10});
+
+				});
+      </script>
+
+{% endblock %}
+
+
+
+{#<form action="{{ path('task_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" name='Save' value='Submit' />
+</form>#}
+
+{#<form action="{{ path('task_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+
+    {{ form_row(form.task) }}
+    {{ form_row(form.dueDate) }}
+
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>#}
+

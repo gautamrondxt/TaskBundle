@@ -1,0 +1,40 @@
+twitter_authentication:
+    pattern:  /twitterauthentication/{popup}/{redirectRoute}
+    defaults: { _controller: AcmeLnBundle:Twitter:index, popup: 'no' }
+
+twitter_callback:
+    pattern:  /twitter
+    defaults: { _controller: AcmeLnBundle:Twitter:twitter }
+
+save_twitter_tokens:
+    pattern:  /twitter/save
+    defaults: { _controller: AcmeLnBundle:Twitter:saveTwitterTokens }
+
+twitt:
+    pattern: /twitt/{status}
+    defaults: { _controller: AcmeLnBundle:Twitter:twitt }
+
+get_last_twitts:
+    pattern: /twitts/{count}
+    defaults: { _controller: AcmeLnBundle:Twitter:getLastTwitts }
+
+facebook_app_id:
+    pattern:  /facebook/app/id
+    defaults: { _controller: AcmeLnBundle:Facebook:getFacbookApplicationId }
+    
+facebook_end_dailog:
+    pattern:  /facebookenddialog
+    defaults: { _controller: AcmeLnBundle:Facebook:endDialog }
+    
+facebook_one_user_handel:
+    pattern:  /facebookoneuserhandel
+    defaults: { _controller: AcmeLnBundle:Facebook:facebookOneUserHandeler }   
+    
+linkedInButton:
+    pattern:  /linkedInButton/{callbackUrl}/{popup}
+    defaults: { _controller: AcmeLnBundle:Default:linkedInButton, popup: 'no'}     
+    
+linkedInCallBack:
+    pattern:  /linkedInCallBack
+    defaults: { _controller: AcmeLnBundle:Default:linkedInCallBack}    
+

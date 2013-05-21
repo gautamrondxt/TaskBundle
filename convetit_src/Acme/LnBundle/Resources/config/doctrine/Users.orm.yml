@@ -1,0 +1,56 @@
+# src/Acme/StoreBundle/Resources/config/doctrine/Product.orm.yml
+Acme\LnBundle\Entity\Users:
+    type: entity
+    table: users
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        firstname:
+            type: string
+            length: 100
+            nullable: TRUE			
+        lastname:
+            type: string
+            length: 100
+            nullable: TRUE			
+        email:
+            type: string
+            length: 100
+        api_id:
+            type: string
+            length: 100
+        doe:
+            type: datetime  
+            nullable: TRUE			
+        dlu:
+            type: datetime
+            nullable: TRUE			
+        status:
+            type: integer 
+            length: 1
+        bio:
+            type: string
+            length: 256
+            nullable: TRUE			
+        profile_image:
+            type: string
+            length: 256   
+            nullable: TRUE
+        headline:
+            type: string
+            length: 256   
+            nullable: TRUE
+        industry:
+            type: string
+            length: 256   
+            nullable: TRUE
+        token_key:
+            type: string
+            length: 256   
+            nullable: TRUE
+        secret_key:
+            type: string
+            length: 256   
+            nullable: TRUE

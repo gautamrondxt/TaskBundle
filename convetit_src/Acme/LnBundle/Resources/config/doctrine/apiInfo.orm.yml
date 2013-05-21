@@ -1,0 +1,33 @@
+# src/Acme/StoreBundle/Resources/config/doctrine/Product.orm.yml
+Acme\LnBundle\Entity\apiInfo:
+      type: entity
+      table: apiinfo
+      id:
+           id:
+                   type: integer
+                   generator: { strategy: AUTO }
+      fields:
+          api_name:
+                   type: string
+                   length: 100
+          display_name:
+                   type: string
+                   length: 100
+                   nullable: TRUE
+          original_url:
+                   type: string
+                   length: 256
+                   nullable: TRUE			
+          api_key:
+                   type: string
+                   length: 256   
+                   nullable: TRUE			 
+          api_secrete_key:
+                   type: string
+                   length: 256
+                   nullable: TRUE			
+          api_status:
+                   type: integer
+                   length: 1
+  
+

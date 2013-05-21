@@ -1,0 +1,18 @@
+plans_listing:
+    pattern:  /plans/
+    defaults: { _controller: AcmePlansBundle:Default:plans }
+plans_dashboard:
+    pattern: /dashboard/
+    defaults: {_controller: AcmePlansBundle:Default:dashboard }	
+
+homepage:
+   pattern: /home/
+   defaults: {_controller: AcmePlansBundle:Default:index }
+
+lnlogin:
+    pattern:  /lnlogin/
+    defaults: { _controller: AcmePlansBundle:Default:lnlogin }
+
+accessTokenAction:
+    pattern:  /accesstoken/
+    defaults: { _controller: AcmePlansBundle:Default:accessToken }
